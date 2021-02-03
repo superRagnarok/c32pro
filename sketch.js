@@ -10,6 +10,9 @@ var polygon1;
 var slingshot;
 var backgroundImg,bg_img;
 
+function preload(){
+getBackgroundImage();
+}
 function setup(){
     var canvas = createCanvas(1500,400);
     engine = Engine.create();
